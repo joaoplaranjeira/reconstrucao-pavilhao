@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto de Reconstrução | Leça FC</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- style moved to style.css -->
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f9f9f9;
+      color: #222;
+      line-height: 1.8;
+    }
+    header {
+      background-color: #006400;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+      position: relative;
+    }
+    header img {
+      max-width: 80px;
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+    }
+    header h1 { margin: 0; font-size: 2rem; }
+    header p { font-size: 1.2rem; margin-top: 0.5rem; }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+    section { margin-bottom: 3rem; }
+    .ano {
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-left: 5px solid #006400;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+      margin-bottom: 2rem;
+    }
+    .ano h3 {
+      margin-top: 0;
+      font-size: 1.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: #006400;
+    }
+    .ano ul {
+      list-style: none;
+      padding-left: 1rem;
+      margin: 1rem 0;
+    }
+    .ano ul li::before {
+      content: '\2022';
+      color: #006400;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    .ano li { margin-bottom: 0.5rem; }
+    .ano p { font-weight: bold; margin-top: 1rem; }
+    .total-card {
+      background-color: #e0f2e9;
+      border: 2px solid #228B22;
+      padding: 2rem;
+      border-radius: 12px;
+      text-align: center;
+      margin-bottom: 3rem;
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+    }
+    .total-card h3 {
+      color: #228B22;
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .cta a {
+      background-color: #006400;
+      color: white;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      transition: background-color 0.3s ease;
+    }
+    .cta a:hover { background-color: #004d00; }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    @media (max-width: 600px) {
+      header img {
+        position: static;
+        display: block;
+        margin: 0 auto 1rem;
+      }
+    }
+  
+</head>
+<body>
+  <header>
+    <img src="leca-logo.png" alt="Leça FC">
+    <h1>Projeto de Reconstrução do Pavilhão Custódio Antunes</h1>
+    <p>Plano Estratégico 2025–2027</p>
+  </header>
+  <div class="container">
+    <section>
+      <h2>Sobre o Projeto</h2>
+      <p>O Pavilhão Custódio Antunes, casa do Leça Futebol Clube, será alvo de uma requalificação profunda entre 2025 e 2027. Este plano visa devolver ao clube e à comunidade um espaço moderno, seguro e funcional para a prática desportiva e formação dos nossos atletas.</p>
+    </section>
+    <section>
+      <h2>Plano por Fases</h2>
+      <div class="ano">
+        <h3>📅 Ano 2025</h3>
+        <ul>
+          <li>Reconstrução da cobertura — <strong>18.000€</strong></li>
+          <li>Reconstrução do museu — <strong>15.000€</strong></li>
+          <li>Salas técnicas, posto médico/fisioterapia, secretaria e sala das modalidades — <strong>10.000€</strong></li>
+          <li>Colocação de novo piso desportivo — <strong>35.000€</strong></li>
+        </ul>
+        <p>Total do ano: <strong>78.000€</strong></p>
+      </div>
+      <div class="ano">
+        <h3>🔧 Ano 2026</h3>
+        <ul>
+          <li>Obras de renovação dos balneários — <strong>30.000€</strong></li>
+          <li>Pintura exterior do pavilhão — <strong>10.000€</strong></li>
+        </ul>
+        <p>Total do ano: <strong>40.000€</strong></p>
+      </div>
+      <div class="ano">
+        <h3>🏋️ Ano 2027</h3>
+        <ul>
+          <li>Colocação de bancadas — <strong>50.000€</strong></li>
+          <li>Uniformização do piso fora da quadra — <strong>10.000€</strong></li>
+        </ul>
+        <p>Total do ano: <strong>60.000€</strong></p>
+      </div>
+      <div class="total-card">
+        <h3>💰 Investimento Total Necessário</h3>
+        <p>O custo global estimado para a requalificação do pavilhão é de <strong>178.000€</strong>, a executar entre 2025 e 2027.</p>
+      </div>
+    </section>
+    <section>
+      <h2>Como Apoiar</h2>
+      <p>Todos podem contribuir para este projeto, seja com donativos, materiais ou serviços. Empresas, instituições, sócios e simpatizantes podem juntar-se a esta missão.</p>
+    </section>
+    <section>
+      <h2>Benefícios para os Parceiros</h2>
+      <ul>
+        <li>Presença do nome ou logótipo em zonas do pavilhão (ex: bancadas, vestiários, mural de parceiros)</li>
+        <li>Visibilidade nos meios de comunicação do clube (site, redes sociais, eventos)</li>
+        <li>Certificado oficial de apoio ao projeto</li>
+        <li>Reconhecimento como agente ativo na valorização do desporto e da comunidade</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Impacto para o Clube e a Comunidade</h2>
+      <p>Com este projeto, o Leça Futebol Clube passa a dispor de um pavilhão moderno, seguro e funcional, capaz de acolher com mais qualidade atletas, eventos e formação desportiva. Ganham os nossos jovens, ganham as modalidades, ganha a comunidade.</p>
+    </section>
+    <div class="cta">
+      <a href="https://missao.pavilhaocustodioantunes.pt/formulario" target="_blank">Quero apoiar o projeto</a>
+    </div>
+  </div>
+  <footer>
+    <p>Leça Futebol Clube | direcao@lecafc.pt | 91 440 92 32</p>
+    <p>© 2025 Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>

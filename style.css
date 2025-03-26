@@ -1,0 +1,103 @@
+
+* { box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0; padding: 0;
+  background-color: #f9f9f9;
+  color: #222;
+  line-height: 1.8;
+}
+header {
+  background-color: #006400;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  position: relative;
+}
+header img {
+  max-width: 80px;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+header h1 { margin: 0; font-size: 2rem; }
+header p { font-size: 1.2rem; margin-top: 0.5rem; }
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+section { margin-bottom: 3rem; }
+.ano {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-left: 5px solid #006400;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  margin-bottom: 2rem;
+}
+.ano h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #006400;
+}
+.ano ul {
+  list-style: none;
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+.ano ul li::before {
+  content: '\2022';
+  color: #006400;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.ano li { margin-bottom: 0.5rem; }
+.ano p { font-weight: bold; margin-top: 1rem; }
+.total-card {
+  background-color: #e0f2e9;
+  border: 2px solid #228B22;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 3rem;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+.total-card h3 {
+  color: #228B22;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.cta {
+  text-align: center;
+  margin-top: 2rem;
+}
+.cta a {
+  background-color: #006400;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+.cta a:hover { background-color: #004d00; }
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+@media (max-width: 600px) {
+  header img {
+    position: static;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+}
