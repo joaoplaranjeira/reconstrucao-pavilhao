@@ -169,6 +169,18 @@ section { margin-bottom: 3rem; }
   font-size: 0.9rem;
 }
 
+.price-link {
+  color: #006400;
+  text-decoration: none;
+  border-bottom: 1px dotted #006400;
+  transition: all 0.3s ease;
+}
+
+.price-link:hover {
+  color: #228B22;
+  border-bottom: 1px solid #228B22;
+}
+
 .task-progress {
   display: flex;
   align-items: center;
